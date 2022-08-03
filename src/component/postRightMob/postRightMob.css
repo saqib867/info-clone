@@ -1,0 +1,42 @@
+.rightMob__header{
+
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+     padding-right: 40%;
+     margin-top: 5px;
+     margin-bottom: 10px;
+     border-bottom: 1px solid lightgray;
+}
+.rightMob__link{
+
+     color: black;
+}
+
+.bodyMob__user{
+      
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 25px 5px;
+}
+.userMob__info{
+
+     display: flex; 
+     align-items: center;
+     justify-content: center;
+     text-decoration: none;
+     color:black;
+     cursor: pointer;
+}
+.userMob__name{
+
+     display: flex;
+     flex-direction: column;
+     margin-left: 5px;
+}
+.userMob__name>h6,span{
+
+     margin: 0;
+}

@@ -1,0 +1,80 @@
+@media(max-width:768px){
+
+     .postRight{
+
+          width:100%;
+          display:none
+     }
+     .right__header{
+
+          display: none;
+     }
+}
+.postRight{
+    
+     padding-top: 10px;
+     padding-right: 10%;
+     
+}
+
+.right__header{
+
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.header__left{
+
+     display: flex;
+     align-items: center;
+
+}
+.header__left>h6{
+
+     margin-left: 8px;
+}
+.header__left>.MuiAvatar-root{
+     height: 55px;
+     width: 55px;
+}
+.post__suggestion{
+
+     margin: 15px 0px;
+     color: rgb(163, 163, 163);
+}
+.right__body{
+
+     display: flex;
+     flex-direction: column;
+}
+
+.body__user{
+
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-top:10px;
+}
+.user__info{
+     text-decoration: none;
+     color: black;
+     display: flex;
+     align-items: center !important;
+     justify-content:space-between;
+     cursor: pointer;
+}
+
+.user__name{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     font-size: 18px;
+     
+}
+.user__follow >Button{
+
+     text-transform: lowercase !important;
+     font-size: 16px;
+}
+
+

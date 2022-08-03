@@ -1,0 +1,118 @@
+@media(max-width:768px){
+     
+.model{
+     width: 100%;
+     height: 100%;
+     z-index: 1;
+}
+.model__box{
+     position: relative;
+     width: 100%;
+     height: 100%;
+
+}
+.model__close--back{
+
+     position: absolute;
+     
+     
+}
+.box__wrapper{
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.wrapper__object{
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+.box__imgPreview{
+     
+     width: 100%;
+     object-fit:contain;
+}
+.wrapper__object>textarea{
+     height: 150px;
+     width: 100%;
+     margin: 10px 20px;
+     border: 1px solid lightgray;
+     border-radius: 5px;
+     
+}
+.model__close{
+     display: none !important;
+}
+}
+
+@media(min-width:769px){
+
+     .model{
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+     }
+     .model__box{
+          position: relative;
+          width: 50%;
+          height: 80%;
+     
+     }
+     .model__close--back{
+
+          display: none !important;
+     }
+     .box__wrapper{
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+     .wrapper__object{
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          border-top: 1px solid lightgray;
+          border-bottom: 1px solid lightgray;
+     }
+     .box__imgPreview{   
+
+          object-fit:fill;
+     }
+     .wrapper__object>textarea{
+          height: 200px;
+          width: 100%;
+          margin: 10px 20px;
+          border: 1px solid lightgray;
+          border-radius: 5px;
+          
+     }
+     .model__close{
+
+          position: absolute !important;
+          color:rgb(70, 201, 253) !important;
+          top:0;
+          right:0; 
+     }
+}
+
+.box__wrapper>h4{
+     display: flex;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     border-bottom: 1px solid lightgray;
+}
+
+.box__input{
+
+     display: none;
+}
+

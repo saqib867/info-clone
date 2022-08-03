@@ -1,0 +1,26 @@
+@media(max-width:768px){
+
+      .menu__btn{
+
+          display: none !important;
+      }
+      .menu__profile{
+           display: block;
+      }
+}
+
+@media(min-width:769px){
+
+   .menu__profile{
+
+     display: none !important;
+     
+   } 
+   .menu__btn{
+        display: block;
+   }
+   .menu__item{
+        text-decoration: none;
+        color: black;
+   }
+}
